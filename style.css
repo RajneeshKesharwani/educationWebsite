@@ -1,0 +1,59 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+header{
+    font-family: 'Palanquin Dark', sans-serif;
+    background-color: lightgreen;   
+}
+header>nav>ul{
+    /* border: 2px solid red; */
+    text-align: center;
+
+   
+}
+header>nav>ul>li{
+   /* border: 2px solid red; */
+   display: inline-block;
+   padding: 20px ;    
+   list-style-type: none;
+}
+header>nav>ul>li>a{
+   text-decoration: none;
+   color: green;   
+}
+header>nav>ul>li>a:hover{
+    /* color: red; */
+    text-decoration: underline red;
+    color: red;
+}
+.banner{
+    background: url(./images/pexels-yan-krukov-8613368.jpg)
+     no-repeat center;
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+    text-align: right;
+    padding: 90px 50px ; 
+    background-size:cover; 
+    /* background-size: contain;
+    */
+}
+.banner>h1{
+    border: 2px solid black;
+    font-family:'Palanquin Dark';
+    text-align: center;
+    background: lightgreen;
+    box-shadow: 0px 0px 10px black;
+    color: green;
+    /* padding-right: 20px; */
+    /* margin-left: 30%; */
+    width:800px ;
+    font-size: 50PX;
+    margin-bottom: 40px;
+
+}
+.banner>h1:hover{
+    color: red;
+   
+}
